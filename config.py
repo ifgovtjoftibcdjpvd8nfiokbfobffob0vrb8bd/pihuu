@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "28294093"))
+API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7158704339:AAFyALSLCtupZG0eZ1sdNhb06bYdBEUOhn4")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_God_father_ll")
 # Get Your bot username
@@ -19,17 +19,17 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "Kittu_music_robot")
 BOT_NAME = getenv("BOT_NAME" , "Kittu")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "itz_m3_kittu")
-EVALOP = list(map(int, getenv("EVALOP", "6656608288  6656608288").split()))
+EVALOP = list(map(int, getenv("EVALOP", "8142003954  8142003954").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002182008630))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002333682568))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6958410296))
+OWNER_ID = int(getenv("OWNER_ID", 7622753384))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kittu_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Kittu_update")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KittuSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
 
 # Get @tmm_string_bot session from @tmm_STRING_BOT
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
