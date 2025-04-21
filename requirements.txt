@@ -28,7 +28,7 @@ pycryptodome
 pydub
 pyfiglet
 pykeyboard
-python-dotenv==1.0.1
+python-dotenv==1.1.0
 python-telegram-bot==21.1.1
 pyshorteners
 pyttsx3
