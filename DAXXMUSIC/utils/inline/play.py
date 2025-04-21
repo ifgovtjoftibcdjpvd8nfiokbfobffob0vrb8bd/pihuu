@@ -67,20 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text="✪ʟɪꜰᴇ✪",
-                url=f"https://t.me/CRAZY_OP_01",
-            ),
-            InlineKeyboardButton(
-                text="✪ᴊᴀɴɴ✪",
-                url=f"https://t.me/+OKh1elJ1As0zYjk1",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✪ᴏᴡɴᴇʀ✪",
-                url=f"t.me/{OWNER_USERNAME}",
-            ),
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",)
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -97,31 +84,8 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-                 [
-            InlineKeyboardButton(
-
-                text="✪ʟɪꜰᴇ✪",
-
-                url=f"https://t.me/CRAZY_OP_01",
-
-            ),
-            InlineKeyboardButton(
-
-                text="✪ᴊᴀɴɴ✪",
-
-                url=f"https://t.me/+OKh1elJ1As0zYjk1",
-
-            ),
-        ],
-
-                 [
-            InlineKeyboardButton(
-
-                text="✪ᴏᴡɴᴇʀ✪",
-
-                url=f"t.me/{OWNER_USERNAME}",
-
-            ),
+        [
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",)
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
