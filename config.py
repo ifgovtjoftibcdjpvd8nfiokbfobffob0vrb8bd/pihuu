@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "28294093"))
 API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7158704339:AAHZ0TOJdT71YQrYCN7ZoxMoU_aDWnbWJyg")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_God_father_ll")
 # Get Your bot username
@@ -21,7 +21,7 @@ BOT_NAME = getenv("BOT_NAME" , "Kittu")
 ASSUSERNAME = getenv("ASSUSERNAME" , "itz_m3_kittu")
 EVALOP = list(map(int, getenv("EVALOP", "8142003954  8142003954").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
 
 # Get @tmm_string_bot session from @tmm_STRING_BOT
-STRING1 = getenv("STRING_SESSION", "BQGvu80AKj4uukV3oujd0wiB6i3-b99l2A-c6xa2vwzcETqR4wLd6nUgDv9eACMqt-uZNC8cZP7eSkKF6qYYo5tvcovwK6lMnUS0MRtGbs9rpa6qCdlghvHdD8zteMt1C_kBhJtJIvEb9DayJtzdo9fcp1dcVxDHvC5YTfYh5QGvMZ7rY8aa9Sv0n3GZeTF2CbTESLu9XWPanRYUWElZEKHRZilczOZUZkK-SE8gvwfT4z53xIF6WpOFjmbZHEkxYSDadTDyVmdzF5mHipFbZT30Kpj5uOv8_X3DtTuTSc_MQ3atK4rYY6uOxoMjlKq262OIDFicDWeeN4D884nWN-bQPxPeBwAAAAHPJmoTAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
