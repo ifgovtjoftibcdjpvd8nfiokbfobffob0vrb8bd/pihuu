@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "28294093"))
 API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7939938693:AAESNHsPdFDquAP1d_Fe5dKrJaejLu-IrVo")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_God_father_ll")
 # Get Your bot username
@@ -21,7 +21,7 @@ BOT_NAME = getenv("BOT_NAME" , "Kittu")
 ASSUSERNAME = getenv("ASSUSERNAME" , "itz_m3_kittu")
 EVALOP = list(map(int, getenv("EVALOP", "8142003954  8142003954").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') 
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots0e3463')
+API_KEY = getenv("API_KEY", '')
 
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kittu_update")
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
 
 # Get @tmm_string_bot session from @tmm_STRING_BOT
-STRING1 = getenv("STRING_SESSION", "BQGvu80AFOVbYzqe3uKy-3BymT2PqLiVW-dc-beVjHzi-q7o-VF8-7hemRBBV2lxDoR2uHa-372zX3GqoDtuUtg0NLyJX2IeEenrmUt1nrAsOLIKL0iNsMSQL4tRXHZpgZIR_uIrtpLJlmFRCKtPViSJJfgVRXqOb4eIq8M4cyotzmnOCJxu8kARV0c6as8EDoW76rf_n-bx4258xCT0jJeL6-wkTVRkH6FHRG-XyeoOji9VAr2QaHTJVM8iCfg4Y40kloBlYWwLQurRG26Ly52xDe81I3qEtVnGydy6AwOEC8lGik8jMlgntUqbFWZnDroqEJxVpMQytsYL9PtBhV7ZJdwgEwAAAAHXfvXSAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
